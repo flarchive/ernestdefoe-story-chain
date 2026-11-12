@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of ernestdefoe/story-chain.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/story-chain) or the [upstream repository](https://github.com/ernestdefoe/story-chain).
 
-**0** versions archived · Latest: [`1.0.1`](https://github.com/flarchive/ernestdefoe-story-chain/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
+**2** versions archived · Latest: [`1.0.1`](https://github.com/flarchive/ernestdefoe-story-chain/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-story-chain/tree/archive/v1.0.0) |
+| `1.0.1` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-story-chain/tree/archive/v1.0.1) |
 
 Catalog entry: [packages/ernestdefoe-story-chain.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-story-chain.json)
 
