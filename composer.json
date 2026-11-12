@@ -1,0 +1,84 @@
+{
+    "name": "ernestdefoe/story-chain",
+    "description": "Story Chain: the forum writes a story together, one line at a time. Members each offer a next line every round, vote, and the winning line joins the story, credited to its writer. Finished stories become chapters in a library.",
+    "keywords": [
+        "flarum",
+        "flarum-extension",
+        "story",
+        "writing",
+        "game",
+        "community",
+        "engagement"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernest Defoe",
+            "email": "ernestdefoe@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/ernestdefoe/story-chain",
+    "support": {
+        "issues": "https://github.com/ernestdefoe/story-chain/issues",
+        "source": "https://github.com/ernestdefoe/story-chain"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://buymeacoffee.com/ernestdefoe"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErnestDefoe\\StoryChain\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErnestDefoe\\StoryChain\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Story Chain",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-feather-pointed",
+                "backgroundColor": "#7c2d12",
+                "color": "#fff"
+            },
+            "optional-dependencies": [
+                "flarum/gdpr"
+            ]
+        }
+    },
+    "require-dev": {
+        "flarum/gdpr": "^2.0",
+        "flarum/phpstan": "^2.0",
+        "flarum/testing": "^2.0"
+    },
+    "scripts": {
+        "test": [
+            "@test:integration"
+        ],
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php",
+        "analyse:phpstan": "phpstan analyse"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once.",
+        "analyse:phpstan": "Run static analysis"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
